@@ -3,7 +3,6 @@
   gather_facts: false
   tasks:  
   - name: Update apt packages
-    remote_user: root
     apt:
       update_cache: yes
   - name: Install nginx
